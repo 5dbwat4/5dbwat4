@@ -1,0 +1,114 @@
+body,
+html{
+      margin: 0;
+      padding: 0;
+      height: 100%;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+ .bg-svg{
+      display: block;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+}
+  
+.scrollElement {
+      position: absolute;
+      height: 6000px;
+      width: 100px;
+      top: 0;
+      z-index: 0;
+}
+
+  .btn {
+      position: fixed;
+      bottom: 5%;
+      right: 0px;
+      transform: translateX(-50%);
+      border: 1px solid #fff;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      padding: 0.5rem 0.7em;
+      background-color: transparent;
+      color: #ffffff;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      cursor: pointer;
+      transition: all .3s;
+      z-index: 11;
+  }
+
+  .btn_works {
+      left: 100px;
+      right: unset;
+      text-decoration: none;
+  }
+
+  .btn:hover {
+      background: #ffffff;
+      color: #1B1734;
+  }
+
+
+
+
+  /****************************************************/
+
+  .action_btn_container{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    background: #f0f8ff00;
+    border-radius: 50%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.1s;
+  }
+
+  .action_btn_container:hover{
+    background: #f0f8ff2c;
+  }
+
+
+  @font-face {
+    font-family: NunitoSans;
+    src: url("./NunitoSans-Regular.woff2");
+  }
+#info{
+  width: 259px;
+  margin: 0 auto;
+  position:fixed;
+  z-index:20;
+  text-align: center;
+  background-color: #1b0531cf;
+  color: white;
+  font-family: NunitoSans;
+  padding: 20px;
+  box-shadow: 0 0 10px blanchedalmond;
+  border-radius: 10px;
+  letter-spacing: 0.105em;
+}
+
+
+.info_desc{
+  margin: 0;
+}
+
+
+.action_btn_container svg{
+  color: #fff;
+  
+}
