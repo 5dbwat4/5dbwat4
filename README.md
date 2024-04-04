@@ -2,7 +2,9 @@
 
 It is 5dbwat4. 高中牲，屁都不会。
 
-🔭 I’m currently working on... Nothing😭. 课业繁忙（并没有
+🔭 I’m currently working on thost, which is a application for better paper generation.
+
+As well as my *gaokao* this year
 
 🌱 I’m currently learning... Nothing😭. 高中课程算吗（
 
