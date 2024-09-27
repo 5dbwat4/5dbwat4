@@ -1,4 +1,4 @@
-import{D as r,l as n,m as t,E as O,G as V,H as j,d as D,n as b,p as I,I as q,q as c,s as F,v as G,J,y as a}from"./index-CTWkUgdy.js";const K=r([n("table",`
+import{D as r,l as n,m as t,E as O,G as V,H as j,d as D,n as b,p as I,I as q,q as c,s as F,v as G,J,y as a}from"./index-BAbmbn7A.js";const K=r([n("table",`
  font-size: var(--n-font-size);
  font-variant-numeric: tabular-nums;
  line-height: var(--n-line-height);
