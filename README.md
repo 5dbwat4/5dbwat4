@@ -1,16 +1,12 @@
 ### Hi there 👋
 
-It is 5dbwat4. 高中牲，屁都不会。
+It is 5dbwat4. 
 
-🔭 I’m currently working on thost, which is a application for better paper generation.
+🔭 I’m now studying CS in ZJU.
 
-As well as my *gaokao* this year
-
-🌱 I’m currently learning... Nothing😭. 高中课程算吗（
+Go to [5dbwat4.top](https://5dbwat4.top) to know more.
 
 #### How to reach me:
-
-~~建议不要reach我~~
 
 Email: [me@5dbwat4.top](mailto:me@5dbwat4.top) 
 
