@@ -1,3 +1,8 @@
+/**
+ * Loading assets with progress bar
+ * @author 5dbwat4 <me@5dbwat4.top>
+ */
+
 /** @format */
 
 let loadingAssets = [];
