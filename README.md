@@ -4,11 +4,9 @@ It is 5dbwat4.
 
 🔭 I’m now studying CS in ZJU.
 
-Go to [5dbwat4.top](https://5dbwat4.top) to know more.
+📫 Email: [me@5dbwat4.top](mailto:me@5dbwat4.top) 
 
-#### How to reach me:
-
-Email: [me@5dbwat4.top](mailto:me@5dbwat4.top) 
+🌍 Site: [5dbwat4.top](https://5dbwat4.top) 
 
 <!--
 **5dbwat4/5dbwat4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

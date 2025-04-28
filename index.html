@@ -1,4 +1,133 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>5dbwat4</title>
-<script type="module" crossorigin data-src="./assets/index-f30c076c.js" progressing content-length="619418"></script>
-<link rel="stylesheet" data-href="./assets/index-d155a0a4.css" progressing content-length="8391">
-</head><body style="overflow:hidden;"><div id="app" ><div class="loader-container"><div class="loader"></div><p class="loader-info">Approaching...</p><style>.loader-container{width:fit-content;display:block;margin:0 auto;text-align:center;}.loader-info{font-family:Cambria,"kaiti", Cochin, Georgia, Times, 'Times New Roman', serif;color:#b9c3ea}.loader {width:48px;height:48px;border:3px solid #2818d5;border-radius:50%;display:inline-block;position:relative;-webkit-animation:rotation 1s linear infinite;animation:rotation 1s linear infinite;}.loader:after {content:"";position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);width:40px;height:40px;border-radius:50%;border:3px solid;border-color:#ffffff transparent;}@-webkit-keyframes rotation{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}@keyframes rotation {0%{transform:rotate(0deg);}100% {transform:rotate(360deg);}}</style></div><style>body {min-height:100vh;background:#010926;background-image:radial-gradient(farthest-corner at 40px 40px,rgb(22, 17, 104) 0%,rgb(4, 1, 30) 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;padding-top:2rem;padding-bottom:2rem;box-sizing:border-box;}</style><script src="./assets/loader.min.js"></script></body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>5dbwat4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amaranth:400"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+
+        background-color: rgb(227, 243, 205);
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Amaranth", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: calc(10px + 0.33vw);
+        -webkit-font-smoothing: antialiased;
+        color: #121314;
+      }
+      .intro {
+        h1 {
+          font-size: 3.5em;
+          font-weight: 400;
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+        h2 {
+          font-size: 2.2em;
+          font-weight: 300;
+          letter-spacing: -1.5px;
+        }
+        p {
+          font-size: 1.3em;
+          font-weight: 300;
+          line-height: 1.4;
+          max-width: 28em;
+        }
+        a {
+          text-decoration: none;
+          white-space: nowrap;
+          color: #121314;
+          position: relative;
+        }
+        a:after {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          top: 66%;
+          left: -0.1em;
+          right: -0.1em;
+          bottom: 0;
+          transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+          background-color: rgba(79, 192, 141, 0.5);
+        }
+        a:hover:after {
+          top: 0%;
+        }
+      }
+      .links {
+        a {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.3em;
+          padding: 0.5em 1em;
+          background: rgba(0, 0, 0, 0.01);
+          border-radius: 1.25em;
+          text-decoration: none;
+          cursor: pointer;
+          color: #121314;
+          font-size: 1em;
+          font-weight: 600;
+          line-height: 1;
+          border: 1px solid rgba(8, 24, 163, 0.442);
+        }
+        i {
+          /* 图标对齐调整 */
+          width: 1.2em;
+          height: 1.2em;
+          color: #121314; /* 将SVG转为白色 */
+        }
+      }
+      /* 悬停效果 */
+      .github-btn:hover {
+        background: #373e47;
+        transform: translateY(-1px);
+      }
+      /* 点击效果 */
+      .github-btn:active {
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="intro">
+        <h1>Hi,</h1>
+        <h2>I'm 5dbwat4.</h2>
+        <p>
+          An undergraduare majoring Computer Science and Technology in
+          <a
+            href="http://ckc.zju.edu.cn/ckcen/main.htm"
+            target="_blank"
+            class="magic-underline"
+            >Chu Kochen Honors College, Zhejiang University</a
+          >.
+        </p>
+        <p>
+          Skilled in Javascript, especially front-end. Also good at Python and
+          C++. Fresh in CTF.
+        </p>
+        <p>Learning and improving myself. Love to build fun and useful things.</p>
+      </div>
+      <div class="links">
+        <a href="https://github.com/5dbwat4" target="_blank">
+          <i role="img" alt="Github Icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 0 0 3.8.4c8.3 0 11.5-6.1 11.5-11.4c0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 0 1-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5c-10.2-26.5-24.9-33.6-24.9-33.6c-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8c11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0 0 25.6-6c2-14.8 7.8-24.9 14.2-30.7c-49.7-5.8-102-25.5-102-113.5c0-25.1 8.7-45.6 23-61.6c-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 0 1 5-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 0 1 112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 0 1 5 .5c12.2 31.6 4.5 55 2.2 60.8c14.3 16.1 23 36.6 23 61.6c0 88.2-52.4 107.6-102.3 113.3c8 7.1 15.2 21.1 15.2 42.5c0 30.7-.3 55.5-.3 63c0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 0 0 4-.4C415.9 449.2 480 363.1 480 261.7C480 134.9 379.7 32 256 32z" fill="currentColor"></path></svg>
+          </i>
+          <span> Github @5dbwat4</span>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
